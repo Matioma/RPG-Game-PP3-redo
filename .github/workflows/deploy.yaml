@@ -41,6 +41,9 @@ jobs:
 
       - name: Check the contents
         run: ls
+      
+      - name: Call Automation command
+        run: RunUAT -list
   #   steps:
   #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
