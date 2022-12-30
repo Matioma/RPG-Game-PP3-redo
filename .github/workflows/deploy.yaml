@@ -5,141 +5,152 @@ on:
       - main
       - develop
       - 'release/**'
-  pull_request:
-    branches:
-      - main
-      - develop
-      - release/**
-env: 
-  ENVIRONMENT:  ${{ github.ref=='refs/heads/main' && 'prd' ||  startswith(github.ref,'refs/heads/release/') && 'acc' ||  github.ref=='refs/heads/develop' && 'tst' || 'tst'}} 
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - develop
+  #     - release/**
+# env: 
+  # ENVIRONMENT:  ${{ github.ref=='refs/heads/main' && 'prd' ||  startswith(github.ref,'refs/heads/release/') && 'acc' ||  github.ref=='refs/heads/develop' && 'tst' || 'tst'}} 
 jobs:
-  build_client_app:
+  package-unreal-engine-game:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [16.x]
-    steps:
-      - name: Checkout the repo 
-        uses: actions/checkout@v3
-      
-      - name: Cache node modules
-        uses: actions/cache@v1
+    # strategy:
+    #   matrix:
+    #     node-version: [16.x]
+    steps: 
+      - name: Setup Python
+        uses: actions/setup-python@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          python-version: '3.10' 
+
+      - name: Test Python setup
+        run: python --version
+      
+      - name: Test Python setup
+        run: ls
+  #   steps:
+  #     - name: Checkout the repo 
+  #       uses: actions/checkout@v3
+      
+  #     - name: Cache node modules
+  #       uses: actions/cache@v1
+  #       with:
+  #         path: ~/.npm
+  #         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+  #         restore-keys: |
+  #           ${{ runner.os }}-node-
             
-      - name: Node ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
+  #     - name: Node ${{ matrix.node-version }}
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: ${{ matrix.node-version }}
 
-      - name: npm install and npm run build
-        run: |
-          cd src/FinancialAppClient
-          npm i
-          if [ "$ENVIRONMENT" == "tst" ]
-          then
-            npm run build:tst
-          fi
+  #     - name: npm install and npm run build
+  #       run: |
+  #         cd src/FinancialAppClient
+  #         npm i
+  #         if [ "$ENVIRONMENT" == "tst" ]
+  #         then
+  #           npm run build:tst
+  #         fi
 
-      - name: zip dist folder
-        run: | 
-          cd src/FinancialAppClient/dist/financial-app-client
-          zip -r ../financial-app-client.zip .
+  #     - name: zip dist folder
+  #       run: | 
+  #         cd src/FinancialAppClient/dist/financial-app-client
+  #         zip -r ../financial-app-client.zip .
       
-      - name: upload Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: financial-app-client
-          path: src/FinancialAppClient/dist/financial-app-client.zip
-          retention-days: 1
+  #     - name: upload Artifact
+  #       uses: actions/upload-artifact@v3
+  #       with:
+  #         name: financial-app-client
+  #         path: src/FinancialAppClient/dist/financial-app-client.zip
+  #         retention-days: 1
   
-  build_backend:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        dotnet-version: ['6.0.x' ]
-    steps:
-      - name: Checkout the repo 
-        uses: actions/checkout@v3
+  # build_backend:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix:
+  #       dotnet-version: ['6.0.x' ]
+  #   steps:
+  #     - name: Checkout the repo 
+  #       uses: actions/checkout@v3
 
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: ${{ matrix.dotnet-version }}
+  #     - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
+  #       uses: actions/setup-dotnet@v3
+  #       with:
+  #         dotnet-version: ${{ matrix.dotnet-version }}
 
-      - name: Install dependencies
-        run: |
-          cd src/FinancialAppBackend
-          dotnet restore
-      - name: Build
-        run: dotnet build src/FinancialAppBackend/Backend.csproj --configuration Release --no-restore
-      - name: Test
-        run: dotnet test src/FinancialAppBackend/Backend.sln --no-restore --verbosity normal
+  #     - name: Install dependencies
+  #       run: |
+  #         cd src/FinancialAppBackend
+  #         dotnet restore
+  #     - name: Build
+  #       run: dotnet build src/FinancialAppBackend/Backend.csproj --configuration Release --no-restore
+  #     - name: Test
+  #       run: dotnet test src/FinancialAppBackend/Backend.sln --no-restore --verbosity normal
 
 
-      - name: Publish
-        if: github.event_name != 'pull_request'
-        run: |
-          dotnet publish src/FinancialAppBackend/Backend.csproj \
-          --no-restore \
-          --verbosity normal \
-          --output src/FinancialAppBackend/publish
-      - name: zip executable folder
-        if: github.event_name != 'pull_request'
-        run: | 
-          cd src/FinancialAppBackend/publish
-          zip -r ../financial-app-backend.zip .
+  #     - name: Publish
+  #       if: github.event_name != 'pull_request'
+  #       run: |
+  #         dotnet publish src/FinancialAppBackend/Backend.csproj \
+  #         --no-restore \
+  #         --verbosity normal \
+  #         --output src/FinancialAppBackend/publish
+  #     - name: zip executable folder
+  #       if: github.event_name != 'pull_request'
+  #       run: | 
+  #         cd src/FinancialAppBackend/publish
+  #         zip -r ../financial-app-backend.zip .
 
-      - name: upload Artifact
-        if: github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v3
-        with:
-          name: financial-app-backend
-          path: src/FinancialAppBackend/financial-app-backend.zip
-          retention-days: 1
+  #     - name: upload Artifact
+  #       if: github.event_name != 'pull_request'
+  #       uses: actions/upload-artifact@v3
+  #       with:
+  #         name: financial-app-backend
+  #         path: src/FinancialAppBackend/financial-app-backend.zip
+  #         retention-days: 1
 
-  deploy_terraform:
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    name: Terraform
-    needs:
-      [ build_backend, build_client_app]
+  # deploy_terraform:
+  #   if: github.event_name != 'pull_request'
+  #   runs-on: ubuntu-latest
+  #   name: Terraform
+  #   needs:
+  #     [ build_backend, build_client_app]
 
-    env: 
-      ARM_CLIENT_ID: ${{secrets.AZURE_CLIENT_ID}}
-      ARM_CLIENT_SECRET: ${{secrets.AZURE_CLIENT_SECRET}}
-      ARM_TENANT_ID: ${{secrets.AZURE_TENANT_ID}}
-      ARM_SUBSCRIPTION_ID: ${{secrets.AZURE_SUBSCRIPTION_ID}}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+  #   env: 
+  #     ARM_CLIENT_ID: ${{secrets.AZURE_CLIENT_ID}}
+  #     ARM_CLIENT_SECRET: ${{secrets.AZURE_CLIENT_SECRET}}
+  #     ARM_TENANT_ID: ${{secrets.AZURE_TENANT_ID}}
+  #     ARM_SUBSCRIPTION_ID: ${{secrets.AZURE_SUBSCRIPTION_ID}}
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
 
-      - name: Test
-        run: echo $ENVIRONMENT
+  #     - name: Test
+  #       run: echo $ENVIRONMENT
 
-      - name: Download Backed Zip
-        uses: actions/download-artifact@v3
-        with:
-          name: financial-app-backend
+  #     - name: Download Backed Zip
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: financial-app-backend
       
-      - name: Download Frontend Zip
-        uses: actions/download-artifact@v3
-        with:
-          name: financial-app-client
+  #     - name: Download Frontend Zip
+  #       uses: actions/download-artifact@v3
+  #       with:
+  #         name: financial-app-client
 
-      - name: Allow brew package manager
-        run: |
-          echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
+  #     - name: Allow brew package manager
+  #       run: |
+  #         echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
 
-      - name: Install terragrunt
-        run:  brew install terragrunt
+  #     - name: Install terragrunt
+  #       run:  brew install terragrunt
 
-      - name: Apply Terragrunt
-        if: github.event_name != 'pull_request'
-        run: |
-          terragrunt run-all apply \
-          --terragrunt-non-interactive
+  #     - name: Apply Terragrunt
+  #       if: github.event_name != 'pull_request'
+  #       run: |
+  #         terragrunt run-all apply \
+  #         --terragrunt-non-interactive
           
