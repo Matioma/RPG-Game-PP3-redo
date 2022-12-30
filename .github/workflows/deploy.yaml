@@ -35,6 +35,12 @@ jobs:
       - name: Check Docker Version
         run: | 
           ue4-docker version
+
+      - name: Checkout the Repo Files
+        uses: actions/checkout@v3
+
+      - name: Check the contents
+        run: ls
   #   steps:
   #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
