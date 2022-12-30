@@ -19,14 +19,6 @@ jobs:
     #   matrix:
     #     node-version: [16.x]
     steps: 
-      # - name: Setup Python
-      #   uses: actions/setup-python@v4
-      #   with:
-      #     python-version: '3.10' 
-
-      - name: Check Python Version
-        run: python --version
-      
       - name: Instal UE4 Docker Image
         run: | 
           sudo pip3 install ue4-docker
@@ -44,6 +36,10 @@ jobs:
       
       - name: Call Automation command
         run: RunUAT -list
+
+      - name: Setup engine
+        run: |
+          docker image ls
   #   steps:
   #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
