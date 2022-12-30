@@ -28,7 +28,13 @@ jobs:
         run: python --version
       
       - name: Instal UE4 Docker Image
-        run: sudo pip3 install ue4-docker
+        run: | 
+          sudo pip3 install ue4-docker
+          sudo ue4-docker setup 
+
+      - name: Check Docker Version
+        run: | 
+          ue4-docker version
   #   steps:
   #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
