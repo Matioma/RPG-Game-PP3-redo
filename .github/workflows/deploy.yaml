@@ -33,9 +33,6 @@ jobs:
 
       - name: Check the contents
         run: ls
-      
-      - name: Call Automation command
-        run: RunUAT -list
 
       - name: Setup engine
         run: |
