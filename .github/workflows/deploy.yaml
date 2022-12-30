@@ -24,11 +24,11 @@ jobs:
       #   with:
       #     python-version: '3.10' 
 
-      - name: Test Python setup
+      - name: Check Python Version
         run: python --version
       
-      - name: Test Python setup
-        run: ls
+      - name: Instal UE4 Docker Image
+        run: sudo pip3 install ue4-docker
   #   steps:
   #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
