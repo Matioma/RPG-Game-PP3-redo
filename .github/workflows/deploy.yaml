@@ -18,25 +18,9 @@ jobs:
     steps: 
       - name: Instal UE4 Docker Image
         run: | 
-          sudo pip3 install ue4-docker
-          sudo ue4-docker setup 
+          ls
 
-      - name: Check Docker Version
-        run: | 
-          ue4-docker version
-
-      - name: Checkout the Repo Files
-        uses: actions/checkout@v3
-
-      - name: Build Docker Image
-        run: |
-          ue4-docker build 5.1.0
-
-      - name: Setup engine
-        run: |
-          docker image ls
   #   steps:
-  #     - name: Checkout the repo 
   #       uses: actions/checkout@v3
       
   #     - name: Cache node modules
