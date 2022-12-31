@@ -14,7 +14,7 @@ on:
   # ENVIRONMENT:  ${{ github.ref=='refs/heads/main' && 'prd' ||  startswith(github.ref,'refs/heads/release/') && 'acc' ||  github.ref=='refs/heads/develop' && 'tst' || 'tst'}} 
 jobs:
   package-unreal-engine-game:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps: 
       - name: Instal UE4 Docker Image
         run: | 
