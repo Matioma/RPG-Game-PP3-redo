@@ -16,12 +16,12 @@ jobs:
   package-unreal-engine-game:
     runs-on: self-hosted
     steps: 
-      - name: Instal UE4 Docker Image
-        run: | 
-          ls
+      # - name: Instal UE4 Docker Image
+      #   run: | 
+      #     ls
 
-      - name: checkout source code
-        uses: actions/checkout@v3
+      # - name: checkout source code
+      #   uses: actions/checkout@v3
 
       - name: output contents
         run: | 
