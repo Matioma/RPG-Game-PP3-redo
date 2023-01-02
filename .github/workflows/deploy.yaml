@@ -25,7 +25,7 @@ jobs:
 
       - name: output contents
         run: | 
-          ls
+          runUAT
 
   #   steps:
   #       uses: actions/checkout@v3
