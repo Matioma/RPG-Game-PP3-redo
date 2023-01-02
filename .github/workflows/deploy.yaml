@@ -24,8 +24,10 @@ jobs:
       #   uses: actions/checkout@v3
 
       - name: output contents
+        shell: pwsh
         run: | 
-          runUAT
+          ls
+          
 
   #   steps:
   #       uses: actions/checkout@v3
