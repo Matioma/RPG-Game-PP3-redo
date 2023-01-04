@@ -23,7 +23,7 @@ jobs:
 
       - name: get HeLP
         run: |
-          RunUAT BuildCookRun -project="C:\Users\Artiom\Documents\Projects\RPG-Game-PP3-redo\RPGGame\RPGGame.uproject" -platform=Win64 -clientconfig=DebugGame -build -cook -stage -archive -archivedirectory="C:\Users\Artiom\Documents\Projects\RPG-Game-PP3-redo\RPGGame\Builds"
+          RunUAT BuildCookRun -project="C:\actions-runner\_work\RPG-Game-PP3-redo\RPG-Game-PP3-redo\RPGGame\RPGGame.uproject" -platform=Win64 -clientconfig=DebugGame -build -cook -stage -archive -archivedirectory="C:\actions-runner\_work\RPG-Game-PP3-redo\RPG-Game-PP3-redo\RPGGame\Builds"
           
           
 
