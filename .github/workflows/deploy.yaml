@@ -1,7 +1,7 @@
 name: Deploy Solution
 on: 
   workflow_dispatch: 
-  
+
   push:
     branches:
       - main
@@ -29,6 +29,7 @@ jobs:
         run: |
           cd C:/ 
           ls
+          runUAT
           
           
 
