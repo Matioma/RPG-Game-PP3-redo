@@ -1,5 +1,7 @@
 name: Deploy Solution
 on: 
+  workflow_dispatch: 
+  
   push:
     branches:
       - main
@@ -24,7 +26,6 @@ jobs:
       #   uses: actions/checkout@v3
 
       - name: output contents
-        shell: pwsh
         run: |
           cd C:/ 
           ls
