@@ -26,6 +26,7 @@ jobs:
       - name: Build Project
         run: | 
           cd scripts
+          ls
           buildProject.bat  "..\RPGGame\RPGGame.uproject" "..\RPGGame\BuildsTest"
 
       # - name: get HeLP
