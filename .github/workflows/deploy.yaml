@@ -34,6 +34,11 @@ jobs:
           ls
           powershell Compress-Archive ./RPGGame/Builds/Windows/* windowsBuild.zip
 
+      - name: Download Butler
+        run: | 
+          curl -L -o butler.zip https://broth.itch.ovh/butler/linux-amd64/LATEST/archive/default
+          ls
+
       - name: Publish Zip
         uses: manleydev/butler-publish-itchio-action@master
         env:
