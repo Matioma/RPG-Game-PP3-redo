@@ -31,7 +31,6 @@ jobs:
 
       - name: Zip Project
         run: | 
-          cd ..
           ls
           powershell Compress-Archive ./RPGGame/Builds/Windows publish.zip
 
