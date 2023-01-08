@@ -38,15 +38,13 @@ jobs:
         run: | 
           curl -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
           powershell Expand-Archive butler.zip
+        
 
       - name: Publish Zip
-        uses: manleydev/butler-publish-itchio-action@master
-        env:
-          BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO }}
-          CHANNEL: windows
-          ITCH_GAME: UnrealRPG_tst
-          ITCH_USER: Matioma
-          PACKAGE: windowsBuild.zip
+        run: |
+          ./butler/butler.exe push windowsBuild.zip matioma/UnrealRPG_tst:windows-beta
+        env: 
+          BUTLER_API_KEY: ${{ secrets.ITCH_IO }}
 
       # - name: get HeLP
       #   run: |
