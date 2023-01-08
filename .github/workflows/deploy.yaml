@@ -42,7 +42,7 @@ jobs:
 
       - name: Publish Zip
         run: |
-          ./butler/butler.exe push windowsBuild.zip matioma/UnrealRPG_tst:windows-beta
+          ./butler/butler.exe push RPGGame/Builds/Windows matioma/unrealrpg-tst:win-64
         env: 
           BUTLER_API_KEY: ${{ secrets.ITCH_IO }}
 
