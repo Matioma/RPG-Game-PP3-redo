@@ -32,7 +32,16 @@ jobs:
       - name: Zip Project
         run: | 
           ls
-          powershell Compress-Archive ./RPGGame/Builds/Windows/* publish.zip
+          powershell Compress-Archive ./RPGGame/Builds/Windows/* builds/publish.zip
+
+      - name: Publish Zip
+      - uses: manleydev/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO }}
+          CHANNEL: windows
+          ITCH_GAME: UnrealRPG_tst
+          ITCH_USER: Matioma
+          PACKAGE: builds/publish.zip
 
       # - name: get HeLP
       #   run: |
