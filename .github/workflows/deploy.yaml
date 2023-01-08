@@ -27,7 +27,12 @@ jobs:
         run: | 
           cd scripts
           ls
-          ./buildProject.bat  "..\RPGGame\RPGGame.uproject" "..\RPGGame\BuildsTest"
+          ./buildProject.bat  "..\RPGGame\RPGGame.uproject" "..\RPGGame\Builds"
+
+      - name: Zip Project
+        run: | 
+          cd ..
+          powershell Compress-Archive ./RPGGame/Builds/Windows publish.zip
 
       # - name: get HeLP
       #   run: |
