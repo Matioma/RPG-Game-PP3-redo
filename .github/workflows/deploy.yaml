@@ -40,7 +40,7 @@ jobs:
           powershell Expand-Archive butler.zip
         
 
-      - name: Publish Zip
+      - name: Publish the build Folder
         run: |
           ./butler/butler.exe push RPGGame/Builds/Windows matioma/unrealrpg-tst:win-64
         env: 
