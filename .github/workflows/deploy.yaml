@@ -35,7 +35,7 @@ jobs:
           powershell Compress-Archive ./RPGGame/Builds/Windows/* builds/publish.zip
 
       - name: Publish Zip
-      - uses: manleydev/butler-publish-itchio-action@master
+        uses: manleydev/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO }}
           CHANNEL: windows
