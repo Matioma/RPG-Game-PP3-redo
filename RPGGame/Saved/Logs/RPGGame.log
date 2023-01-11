@@ -4163,3 +4163,10 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.01.11-18.09.46:703][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/RPGContent/Input/IMC_RPGMapping_Auto4
 [2023.01.11-18.09.46:703][866]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping_Auto4E80BE94E404BF955D4F0F0B1720CE99E.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/Autosaves/Game/RPGContent/Input/IMC_RPGMapping_Auto4.uasset'
 [2023.01.11-18.09.46:704][866]LogFileHelpers: Auto-saving content packages took 0.004
+[2023.01.11-18.14.06:159][874]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.01.11-18.14.06:163][874]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-18.14.06:262][874]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/IMC_RPGMapping
+[2023.01.11-18.14.06:262][874]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping8B77A6714B5B1D4B49EA86AF0F2D9133.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/IMC_RPGMapping.uasset'
+[2023.01.11-18.14.06:278][874]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 9.99 sec)
+[2023.01.11-18.14.06:290][874]AssetCheck: New page: Asset Save: IMC_RPGMapping
+[2023.01.11-18.14.06:290][874]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
