@@ -3707,3 +3707,406 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.01.11-17.50.46:500][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 7.52 sec)
 [2023.01.11-17.50.46:508][743]AssetCheck: New page: Asset Save: BP_RPGController
 [2023.01.11-17.50.46:508][743]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.52.01:231][481]LogContentBrowser: Attempting asset rename: IMC_RPGMapping -> IMC_RPGMapping
+[2023.01.11-17.52.05:295][723]LogContentBrowser: Attempting asset rename: IMC_Default -> IMC_RPGMapping2
+[2023.01.11-17.52.05:356][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.52.05:469][723]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/IMC_RPGMapping2
+[2023.01.11-17.52.05:469][723]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping2B2E19E724D797A8CB8BA25B853D471EF.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/IMC_RPGMapping2.uasset'
+[2023.01.11-17.52.05:485][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 7.65 sec)
+[2023.01.11-17.52.05:544][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.01.11-17.52.05:591][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.01.11-17.52.05:634][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.01.11-17.52.05:640][723]AssetCheck: New page: Asset Save: IMC_RPGMapping2
+[2023.01.11-17.52.05:640][723]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping2.IMC_RPGMapping2
+[2023.01.11-17.52.07:687][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.01.11-17.52.14:685][837]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.11-17.52.14:860][837]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.52.14:860][837]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.52.15:021][837]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
+	Asset Type: InputMappingContext
+[2023.01.11-17.52.15:542][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.01.11-17.52.15:585][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.01.11-17.52.15:621][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.01.11-17.52.22:110][ 59]LogContentBrowser: Attempting asset rename: IMC_RPGMapping2 -> IMC_RPGMapping
+[2023.01.11-17.52.22:148][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.52.22:251][ 59]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/IMC_RPGMapping
+[2023.01.11-17.52.22:251][ 59]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping2F9ECA5E40343D86A04F2988FF33460B.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/IMC_RPGMapping.uasset'
+[2023.01.11-17.52.22:262][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 7.77 sec)
+[2023.01.11-17.52.22:314][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.01.11-17.52.22:349][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.01.11-17.52.22:383][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.01.11-17.52.22:389][ 59]AssetCheck: New page: Asset Save: IMC_RPGMapping
+[2023.01.11-17.52.22:389][ 59]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
+[2023.01.11-17.52.29:050][313]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.52.29:051][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.53.06:889][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.01.11-17.53.08:428][351]LogSlate: Window 'Delete Assets' being destroyed
+[2023.01.11-17.53.08:494][351]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.01.11-17.53.08:555][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.01.11-17.53.08:609][351]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.01.11-17.53.12:550][567]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.53.12:673][567]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.53.12:675][567]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerF10EF3734928FC87911B5597FC23E24F.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.53.12:689][567]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 7.91 sec)
+[2023.01.11-17.53.12:697][567]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.53.12:697][567]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.53.26:402][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.53.26:521][363]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.53.26:522][363]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerC3F613934E9D8B2E33901AAB4D367D01.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.53.26:537][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 8.04 sec)
+[2023.01.11-17.53.26:543][363]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.53.26:543][363]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.53.26:552][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.53.26:667][364]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.53.26:667][364]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerF596548A4F7680EA112EE19F8B1624F8.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.53.26:682][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 8.17 sec)
+[2023.01.11-17.53.26:690][364]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.53.26:691][364]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.53.29:509][478]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.11-17.53.29:523][478]LogContentBundle: [Container: RPG_Playground] Generating Streaming for 0 Content Bundles.
+[2023.01.11-17.53.29:525][478]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.11-17.53.29:526][478]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.11-17.53.29:526][478]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 818 us)
+[2023.01.11-17.53.29:530][478]LogWorldPartition: Display: GenerateStreaming took 4 ms (total: 60 ms)
+[2023.01.11-17.53.29:530][478]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.11-17.53.29:532][478]LogPlayLevel: [PlayLevel] Compiling BP_RPGController before play...
+[2023.01.11-17.53.29:622][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.01.11-17.53.29:624][478]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2023.01.11-17.53.29:624][478]PIE: New page: PIE session: RPG_Playground (Jan 11, 2023, 7:53:29 PM)
+[2023.01.11-17.53.29:624][478]LogPlayLevel: Creating play world package: /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.53.29:629][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005515s)
+[2023.01.11-17.53.29:629][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RPGContent/Levels/RPG_Playground.RPG_Playground to /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground (0.005547s)
+[2023.01.11-17.53.29:630][478]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.53.29:630][478]LogAIModule: Creating AISystem for world RPG_Playground
+[2023.01.11-17.53.29:630][478]LogWorldPartition: ULevel::OnLevelLoaded(RPG_Playground)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.11-17.53.29:630][478]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.11-17.53.29:630][478]LogWorldPartition: UWorldPartition::Initialize(Asset=RPG_Playground, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.11-17.53.29:632][478]LogContentBundle: [Container: RPG_Playground] Creating new contrainer.
+[2023.01.11-17.53.29:632][478]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 228 ms)
+[2023.01.11-17.53.29:632][478]LogPlayLevel: PIE: World Init took: (0.002513s)
+[2023.01.11-17.53.29:673][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.01.11-17.53.29:674][478]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.01.11-17.53.29:674][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-17.53.29:674][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-17.53.29:674][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-17.53.29:674][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-17.53.29:674][478]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-17.53.29:675][478]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-17.53.29:675][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-17.53.29:675][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-17.53.29:675][478]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-17.53.29:675][478]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-17.53.29:675][478]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-17.53.29:678][478]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-17.53.29:716][478]LogAudioMixer: Display: Using Audio Hardware Device Luidsprekers (Realtek High Definition Audio)
+[2023.01.11-17.53.29:717][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-17.53.29:717][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-17.53.29:717][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-17.53.29:719][478]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.01.11-17.53.29:719][478]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.01.11-17.53.29:721][478]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.01.11-17.53.29:721][478]LogInit: FAudioDevice initialized.
+[2023.01.11-17.53.29:721][478]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.01.11-17.53.29:721][478]LogAudio: Display: Audio Device (ID: 20) registered with world 'RPG_Playground'.
+[2023.01.11-17.53.29:726][478]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.01.11-17.53.29:729][478]LogWorld: Bringing World /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground up for play (max tick rate 60) at 2023.01.11-18.53.29
+[2023.01.11-17.53.29:729][478]LogWorld: Bringing up level for play took: 0.002668
+[2023.01.11-17.53.29:731][478]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.01.11-17.53.29:735][478]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=1000.000 Y=1810.000 Z=98.338
+[2023.01.11-17.53.29:735][478]PIE: Server logged in
+[2023.01.11-17.53.29:736][478]PIE: Play in editor total start time 0.213 seconds.
+[2023.01.11-17.53.34:521][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.53.34:521][558]LogWorld: BeginTearingDown for /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.53.34:522][558]LogWorld: UWorld::CleanupWorld for RPG_Playground, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.53.34:523][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.53.34:523][558]LogContentBundle: [Container: RPG_Playground] Deleting container.
+[2023.01.11-17.53.34:558][558]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-17.53.34:564][558]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.53.34:610][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.53.34:611][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.11-17.53.34:613][558]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.01.11-17.53.34:622][558]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.11-17.53.34:643][559]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.01.11-17.53.55:361][377]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.11-17.53.55:383][377]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.11-17.53.55:392][378]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.01.11-17.53.57:444][444]LogContentBrowser: Attempting asset rename: NewFolder -> Actions
+[2023.01.11-17.53.57:445][444]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.11-17.54.01:690][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.54.01:786][615]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/Actions/IA_Interact
+[2023.01.11-17.54.01:786][615]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IA_InteractB9FC499B44789844B918ECAC4D875E19.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/Actions/IA_Interact.uasset'
+[2023.01.11-17.54.01:789][615]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/Actions/IA_SetDestination
+[2023.01.11-17.54.01:790][615]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IA_SetDestination1B1FBC984A958273B0CA30A2A0E9703F.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/Actions/IA_SetDestination.uasset'
+[2023.01.11-17.54.01:806][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 8.29 sec)
+[2023.01.11-17.54.01:902][615]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.01.11-17.54.01:948][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.01.11-17.54.01:993][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.01.11-17.54.02:022][615]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.11-17.54.02:022][615]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/RPGContent/Input/Actions/IA_Interact.IA_Interact
+[2023.01.11-17.54.02:022][615]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/RPGContent/Input/Actions/IA_SetDestination.IA_SetDestination
+[2023.01.11-17.54.15:141][275]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/TopDown/Input/Actions/IA_SetDestination_Click.IA_SetDestination_Click
+[2023.01.11-17.54.18:449][471]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/TopDown/Input/Actions/IA_SetDestination_Touch.IA_SetDestination_Touch
+[2023.01.11-17.54.29:346][112]LogSlate: Window 'IA_SetDestination_Touch' being destroyed
+[2023.01.11-17.54.44:953][755]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/RPGContent/Input/Actions/IA_Interact.IA_Interact
+[2023.01.11-17.54.48:586][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.54.48:675][933]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/Actions/IA_Interact
+[2023.01.11-17.54.48:677][933]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IA_InteractF21C119248D644A067EFA6868BDF4A9E.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/Actions/IA_Interact.uasset'
+[2023.01.11-17.54.48:693][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 8.39 sec)
+[2023.01.11-17.54.48:700][933]AssetCheck: New page: Asset Save: IA_Interact
+[2023.01.11-17.54.48:700][933]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/RPGContent/Input/Actions/IA_Interact.IA_Interact
+[2023.01.11-17.54.51:747][ 65]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/RPGContent/Input/Actions/IA_SetDestination.IA_SetDestination
+[2023.01.11-17.54.54:284][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.54.54:411][130]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/Actions/IA_SetDestination
+[2023.01.11-17.54.54:413][130]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IA_SetDestination6741759A412C09E16FC549A38F6E7312.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/Actions/IA_SetDestination.uasset'
+[2023.01.11-17.54.54:435][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 8.55 sec)
+[2023.01.11-17.54.54:442][130]AssetCheck: New page: Asset Save: IA_SetDestination
+[2023.01.11-17.54.54:442][130]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/RPGContent/Input/Actions/IA_SetDestination.IA_SetDestination
+[2023.01.11-17.55.06:138][519]LogSlate: Window 'IA_SetDestination' being destroyed
+[2023.01.11-17.55.40:204][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.55.40:326][320]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.55.40:327][320]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerA3FCB9F6493246EAD33E67AE2F5F57F1.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.55.40:341][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 8.68 sec)
+[2023.01.11-17.55.40:348][320]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.55.40:348][320]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.55.46:881][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.55.47:033][645]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/Actions/IA_SetDestination
+[2023.01.11-17.55.47:034][645]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IA_SetDestination969ED01742C0D715C2F81194D1340CF2.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/Actions/IA_SetDestination.uasset'
+[2023.01.11-17.55.47:047][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 8.85 sec)
+[2023.01.11-17.55.47:054][645]AssetCheck: New page: Asset Save: IA_SetDestination
+[2023.01.11-17.55.47:054][645]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/RPGContent/Input/Actions/IA_SetDestination.IA_SetDestination
+[2023.01.11-17.55.50:593][763]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
+[2023.01.11-17.55.58:511][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.55.58:621][217]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/IMC_RPGMapping
+[2023.01.11-17.55.58:623][217]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping7077901E44764670385D01969AA02ED3.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/IMC_RPGMapping.uasset'
+[2023.01.11-17.55.58:637][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 8.98 sec)
+[2023.01.11-17.55.58:644][217]AssetCheck: New page: Asset Save: IMC_RPGMapping
+[2023.01.11-17.55.58:644][217]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
+[2023.01.11-17.56.02:567][448]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.56.02:709][448]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.56.02:710][448]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerD32ECD5042CBDD0A1892338664528F70.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.56.02:728][448]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 9.14 sec)
+[2023.01.11-17.56.02:735][448]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.56.02:735][448]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.56.04:986][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.11-17.56.05:000][537]LogContentBundle: [Container: RPG_Playground] Generating Streaming for 0 Content Bundles.
+[2023.01.11-17.56.05:003][537]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.11-17.56.05:003][537]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.11-17.56.05:003][537]LogWorldPartition: Display: GetPartitionedActors took 17 us (total: 836 us)
+[2023.01.11-17.56.05:006][537]LogWorldPartition: Display: GenerateStreaming took 3 ms (total: 64 ms)
+[2023.01.11-17.56.05:007][537]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.01.11-17.56.05:009][537]LogPlayLevel: [PlayLevel] Compiling BP_RPGController before play...
+[2023.01.11-17.56.05:104][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.01.11-17.56.05:106][537]LogPlayLevel: PlayLevel: Blueprint regeneration took 98 ms (1 blueprints)
+[2023.01.11-17.56.05:106][537]PIE: New page: PIE session: RPG_Playground (Jan 11, 2023, 7:56:05 PM)
+[2023.01.11-17.56.05:106][537]LogPlayLevel: Creating play world package: /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.56.05:112][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005805s)
+[2023.01.11-17.56.05:112][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RPGContent/Levels/RPG_Playground.RPG_Playground to /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground (0.005840s)
+[2023.01.11-17.56.05:112][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.56.05:113][537]LogAIModule: Creating AISystem for world RPG_Playground
+[2023.01.11-17.56.05:113][537]LogWorldPartition: ULevel::OnLevelLoaded(RPG_Playground)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.11-17.56.05:114][537]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.11-17.56.05:114][537]LogWorldPartition: UWorldPartition::Initialize(Asset=RPG_Playground, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.11-17.56.05:115][537]LogContentBundle: [Container: RPG_Playground] Creating new contrainer.
+[2023.01.11-17.56.05:115][537]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 230 ms)
+[2023.01.11-17.56.05:115][537]LogPlayLevel: PIE: World Init took: (0.003290s)
+[2023.01.11-17.56.05:156][537]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.01.11-17.56.05:157][537]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-17.56.05:157][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-17.56.05:157][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-17.56.05:158][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-17.56.05:158][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-17.56.05:158][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-17.56.05:160][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-17.56.05:194][537]LogAudioMixer: Display: Using Audio Hardware Device Luidsprekers (Realtek High Definition Audio)
+[2023.01.11-17.56.05:194][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-17.56.05:194][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-17.56.05:194][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-17.56.05:196][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.01.11-17.56.05:196][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.01.11-17.56.05:198][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.01.11-17.56.05:198][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.01.11-17.56.05:198][537]LogInit: FAudioDevice initialized.
+[2023.01.11-17.56.05:198][537]LogAudio: Display: Audio Device (ID: 21) registered with world 'RPG_Playground'.
+[2023.01.11-17.56.05:202][537]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.01.11-17.56.05:204][537]LogWorld: Bringing World /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground up for play (max tick rate 60) at 2023.01.11-18.56.05
+[2023.01.11-17.56.05:204][537]LogWorld: Bringing up level for play took: 0.002157
+[2023.01.11-17.56.05:206][537]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.01.11-17.56.05:213][537]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=1000.000 Y=1810.000 Z=98.338
+[2023.01.11-17.56.05:213][537]PIE: Server logged in
+[2023.01.11-17.56.05:214][537]PIE: Play in editor total start time 0.214 seconds.
+[2023.01.11-17.56.12:751][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.56.12:751][735]LogWorld: BeginTearingDown for /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.56.12:752][735]LogWorld: UWorld::CleanupWorld for RPG_Playground, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.56.12:753][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.56.12:753][735]LogContentBundle: [Container: RPG_Playground] Deleting container.
+[2023.01.11-17.56.12:758][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-17.56.12:764][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.56.12:813][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.56.12:814][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.11-17.56.12:817][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.01.11-17.56.12:827][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2023.01.11-17.56.12:845][736]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.01.11-17.56.16:155][929]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.56.16:277][929]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.56.16:279][929]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerEF27D9484A838B7F2E387388D95324B5.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.56.16:294][929]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 9.28 sec)
+[2023.01.11-17.56.16:302][929]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.56.16:302][929]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.56.19:608][ 77]BlueprintLog: New page: Compile BP_RPGController
+[2023.01.11-17.56.19:681][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.01.11-17.56.21:461][143]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.11-17.56.21:471][143]LogContentBundle: [Container: RPG_Playground] Generating Streaming for 0 Content Bundles.
+[2023.01.11-17.56.21:473][143]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.11-17.56.21:473][143]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.11-17.56.21:473][143]LogWorldPartition: Display: GetPartitionedActors took 7 us (total: 843 us)
+[2023.01.11-17.56.21:476][143]LogWorldPartition: Display: GenerateStreaming took 2 ms (total: 67 ms)
+[2023.01.11-17.56.21:477][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-17.56.21:477][143]PIE: New page: PIE session: RPG_Playground (Jan 11, 2023, 7:56:21 PM)
+[2023.01.11-17.56.21:477][143]LogPlayLevel: Creating play world package: /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.56.21:488][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011527s)
+[2023.01.11-17.56.21:489][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RPGContent/Levels/RPG_Playground.RPG_Playground to /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground (0.011593s)
+[2023.01.11-17.56.21:489][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.56.21:490][143]LogAIModule: Creating AISystem for world RPG_Playground
+[2023.01.11-17.56.21:491][143]LogWorldPartition: ULevel::OnLevelLoaded(RPG_Playground)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.11-17.56.21:491][143]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.11-17.56.21:491][143]LogWorldPartition: UWorldPartition::Initialize(Asset=RPG_Playground, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.11-17.56.21:493][143]LogContentBundle: [Container: RPG_Playground] Creating new contrainer.
+[2023.01.11-17.56.21:493][143]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 232 ms)
+[2023.01.11-17.56.21:493][143]LogPlayLevel: PIE: World Init took: (0.004289s)
+[2023.01.11-17.56.21:543][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.01.11-17.56.21:545][143]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-17.56.21:545][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-17.56.21:545][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-17.56.21:545][143]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-17.56.21:545][143]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-17.56.21:545][143]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-17.56.21:548][143]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-17.56.21:583][143]LogAudioMixer: Display: Using Audio Hardware Device Luidsprekers (Realtek High Definition Audio)
+[2023.01.11-17.56.21:583][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-17.56.21:583][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-17.56.21:583][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-17.56.21:585][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.01.11-17.56.21:585][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.01.11-17.56.21:587][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.01.11-17.56.21:587][143]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.01.11-17.56.21:587][143]LogInit: FAudioDevice initialized.
+[2023.01.11-17.56.21:587][143]LogAudio: Display: Audio Device (ID: 22) registered with world 'RPG_Playground'.
+[2023.01.11-17.56.21:590][143]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.01.11-17.56.21:592][143]LogWorld: Bringing World /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground up for play (max tick rate 60) at 2023.01.11-18.56.21
+[2023.01.11-17.56.21:592][143]LogWorld: Bringing up level for play took: 0.002381
+[2023.01.11-17.56.21:595][143]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.01.11-17.56.21:600][143]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=1000.000 Y=1810.000 Z=98.338
+[2023.01.11-17.56.21:600][143]PIE: Server logged in
+[2023.01.11-17.56.21:601][143]PIE: Play in editor total start time 0.13 seconds.
+[2023.01.11-17.56.28:750][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.56.28:751][348]LogWorld: BeginTearingDown for /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.56.28:751][348]LogWorld: UWorld::CleanupWorld for RPG_Playground, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.56.28:751][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.56.28:751][348]LogContentBundle: [Container: RPG_Playground] Deleting container.
+[2023.01.11-17.56.28:760][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-17.56.28:766][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.56.28:816][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.56.28:816][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.01.11-17.56.28:818][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.01.11-17.56.28:829][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.01.11-17.56.28:848][349]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.01.11-17.57.00:610][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.57.00:738][234]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.57.00:739][234]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGControllerC7737E2848CEE23C80215DB5429FEB0D.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.57.00:755][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 9.42 sec)
+[2023.01.11-17.57.00:763][234]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.57.00:763][234]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.57.29:481][895]LogEditorTransaction: Undo Move Node
+[2023.01.11-17.57.30:164][911]LogEditorTransaction: Undo Delete current selection
+[2023.01.11-17.57.51:210][134]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-17.57.51:335][134]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-17.57.51:336][134]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGController7CE9FCEB4C31C03E29365299F254D394.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-17.57.51:353][134]LogFileHelpers: InternalPromptForCheckoutAndSave took 142 ms (total: 9.56 sec)
+[2023.01.11-17.57.51:359][134]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-17.57.51:359][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-17.57.54:355][273]BlueprintLog: New page: Compile BP_RPGController
+[2023.01.11-17.57.54:441][273]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.01.11-17.57.55:989][329]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.01.11-17.57.55:999][329]LogContentBundle: [Container: RPG_Playground] Generating Streaming for 0 Content Bundles.
+[2023.01.11-17.57.56:002][329]LogWorldPartition: Display: GenerateStreaming started...
+[2023.01.11-17.57.56:002][329]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.01.11-17.57.56:002][329]LogWorldPartition: Display: GetPartitionedActors took 23 us (total: 867 us)
+[2023.01.11-17.57.56:006][329]LogWorldPartition: Display: GenerateStreaming took 4 ms (total: 71 ms)
+[2023.01.11-17.57.56:007][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.11-17.57.56:007][329]PIE: New page: PIE session: RPG_Playground (Jan 11, 2023, 7:57:56 PM)
+[2023.01.11-17.57.56:007][329]LogPlayLevel: Creating play world package: /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.57.56:020][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013288s)
+[2023.01.11-17.57.56:020][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RPGContent/Levels/RPG_Playground.RPG_Playground to /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground (0.013345s)
+[2023.01.11-17.57.56:021][329]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.11-17.57.56:021][329]LogAIModule: Creating AISystem for world RPG_Playground
+[2023.01.11-17.57.56:022][329]LogWorldPartition: ULevel::OnLevelLoaded(RPG_Playground)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=0)
+[2023.01.11-17.57.56:022][329]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.01.11-17.57.56:022][329]LogWorldPartition: UWorldPartition::Initialize(Asset=RPG_Playground, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.01.11-17.57.56:025][329]LogContentBundle: [Container: RPG_Playground] Creating new contrainer.
+[2023.01.11-17.57.56:025][329]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 235 ms)
+[2023.01.11-17.57.56:025][329]LogPlayLevel: PIE: World Init took: (0.004641s)
+[2023.01.11-17.57.56:085][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.01.11-17.57.56:087][329]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.11-17.57.56:087][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.11-17.57.56:087][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.11-17.57.56:088][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.01.11-17.57.56:088][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.01.11-17.57.56:088][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.11-17.57.56:090][329]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.11-17.57.56:127][329]LogAudioMixer: Display: Using Audio Hardware Device Luidsprekers (Realtek High Definition Audio)
+[2023.01.11-17.57.56:127][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.11-17.57.56:127][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.11-17.57.56:127][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.11-17.57.56:129][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.01.11-17.57.56:129][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.01.11-17.57.56:132][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.01.11-17.57.56:132][329]LogInit: FAudioDevice initialized.
+[2023.01.11-17.57.56:132][329]LogAudio: Display: Audio Device (ID: 23) registered with world 'RPG_Playground'.
+[2023.01.11-17.57.56:132][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.01.11-17.57.56:135][329]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.01.11-17.57.56:137][329]LogWorld: Bringing World /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground.RPG_Playground up for play (max tick rate 60) at 2023.01.11-18.57.56
+[2023.01.11-17.57.56:137][329]LogWorld: Bringing up level for play took: 0.002440
+[2023.01.11-17.57.56:140][329]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.01.11-17.57.56:144][329]LogWorldPartition: New Streaming Source: BP_TopDownController_C_0 -> Position: X=1000.000 Y=1810.000 Z=98.338
+[2023.01.11-17.57.56:145][329]PIE: Server logged in
+[2023.01.11-17.57.56:145][329]PIE: Play in editor total start time 0.147 seconds.
+[2023.01.11-17.58.10:041][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.58.10:041][780]LogWorld: BeginTearingDown for /Game/RPGContent/Levels/UEDPIE_0_RPG_Playground
+[2023.01.11-17.58.10:041][780]LogWorld: UWorld::CleanupWorld for RPG_Playground, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-17.58.10:041][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.58.10:042][780]LogContentBundle: [Container: RPG_Playground] Deleting container.
+[2023.01.11-17.58.10:082][780]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.11-17.58.10:087][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-17.58.10:135][780]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.11-17.58.10:135][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.01.11-17.58.10:137][780]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.01.11-17.58.10:149][780]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.11-17.58.10:153][780]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.01.11-17.58.10:171][781]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.01.11-17.59.46:204][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.01.11-17.59.46:205][440]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RPGContent/Levels/RPG_Playground' took 0.047
+[2023.01.11-17.59.46:206][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RPGContent/Gamemode/BP_RPGController] ([2] browsable assets)...
+[2023.01.11-17.59.46:206][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/RPGContent/Gamemode/BP_RPGController]
+[2023.01.11-17.59.46:223][440]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/RPGContent/Gamemode/BP_RPGController_Auto3
+[2023.01.11-17.59.46:223][440]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGController_Auto379954D8843E75023B443649CA9933E68.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/Autosaves/Game/RPGContent/Gamemode/BP_RPGController_Auto3.uasset'
+[2023.01.11-17.59.46:225][440]LogFileHelpers: Auto-saving content packages took 0.020
+[2023.01.11-18.00.15:752][619]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
