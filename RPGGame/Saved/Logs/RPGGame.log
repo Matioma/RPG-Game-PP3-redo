@@ -4110,3 +4110,56 @@ Otherwise assets can be missing from cooked builds. Continue with rename?
 [2023.01.11-17.59.46:223][440]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGController_Auto379954D8843E75023B443649CA9933E68.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/Autosaves/Game/RPGContent/Gamemode/BP_RPGController_Auto3.uasset'
 [2023.01.11-17.59.46:225][440]LogFileHelpers: Auto-saving content packages took 0.020
 [2023.01.11-18.00.15:752][619]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: ================================================
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Total job queries 210, among them cache hits 16 (7.62%)
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Tracking 189 distinct input hashes that result in 137 distinct outputs (72.49%)
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: RAM used: 1.42 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.17%
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Shaders Compiled: 49
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Jobs assigned 53, completed 49 (92.45%)
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Average time worker was idle: 634.05 s
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Time job spent in pending queue: average 0.75 s, longest 3.66 s
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Job execution time: average 1.78 s, max 3.71 s
+[2023.01.11-18.00.49:654][154]LogShaderCompilers: Display: Job life time (pending + execution): average 2.53 s, max 4.99
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.25 s
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Jobs were issued in 53 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Average processing rate: 1.80 jobs/sec
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Total thread time: 64.79 s
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Total thread preprocess time: 3.22 s
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Percentage time preprocessing: 4.98%
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Effective parallelization: 2.38 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 1.77 sec, max 3.02 sec, min 1.36 sec)
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 1.68 sec, max 1.68 sec, min 1.68 sec)
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   11 times, average 1.57 sec, max 2.14 sec, min 1.34 sec)
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   10 times, average 1.34 sec, max 1.94 sec, min 0.87 sec)
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.01.11-18.00.49:655][154]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.11% of total time (compiled   11 times, average 1.77 sec, max 3.02 sec, min 1.36 sec)
+[2023.01.11-18.00.49:656][154]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.64% of total time (compiled   11 times, average 1.57 sec, max 2.14 sec, min 1.34 sec)
+[2023.01.11-18.00.49:656][154]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.63% of total time (compiled   10 times, average 1.34 sec, max 1.94 sec, min 0.87 sec)
+[2023.01.11-18.00.49:656][154]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 15.67% of total time (compiled   10 times, average 1.02 sec, max 2.06 sec, min 0.64 sec)
+[2023.01.11-18.00.49:656][154]LogShaderCompilers: Display:                                                  FHitProxyPS - 2.92% of total time (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2023.01.11-18.00.49:656][154]LogShaderCompilers: Display: ================================================
+[2023.01.11-18.06.03:264][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-18.06.03:402][679]LogSavePackage: Moving output files for package: /Game/RPGContent/Input/IMC_RPGMapping
+[2023.01.11-18.06.03:404][679]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMappingD877C0584FB4DFD060E7A3962F46CC13.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Input/IMC_RPGMapping.uasset'
+[2023.01.11-18.06.03:419][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 9.72 sec)
+[2023.01.11-18.06.03:427][679]AssetCheck: New page: Asset Save: IMC_RPGMapping
+[2023.01.11-18.06.03:427][679]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/RPGContent/Input/IMC_RPGMapping.IMC_RPGMapping
+[2023.01.11-18.09.41:688][729]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.01.11-18.09.41:823][729]LogSavePackage: Moving output files for package: /Game/RPGContent/Gamemode/BP_RPGController
+[2023.01.11-18.09.41:825][729]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/BP_RPGController6B1268EC4007751879C45CB1E60C72B1.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Content/RPGContent/Gamemode/BP_RPGController.uasset'
+[2023.01.11-18.09.41:842][729]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 9.87 sec)
+[2023.01.11-18.09.41:856][729]AssetCheck: New page: Asset Save: BP_RPGController
+[2023.01.11-18.09.41:856][729]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/RPGContent/Gamemode/BP_RPGController.BP_RPGController
+[2023.01.11-18.09.42:600][771]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.01.11-18.09.42:600][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.11-18.09.46:688][866]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2023.01.11-18.09.46:701][866]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/RPGContent/Levels/RPG_Playground' took 0.073
+[2023.01.11-18.09.46:702][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RPGContent/Input/IMC_RPGMapping] ([1] browsable assets)...
+[2023.01.11-18.09.46:702][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/RPGContent/Input/IMC_RPGMapping]
+[2023.01.11-18.09.46:703][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/RPGContent/Input/IMC_RPGMapping_Auto4
+[2023.01.11-18.09.46:703][866]LogSavePackage: Moving '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/IMC_RPGMapping_Auto4E80BE94E404BF955D4F0F0B1720CE99E.tmp' to '../../../../../../Users/Artiom/Documents/Projects/RPG-Game-PP3-redo/RPGGame/Saved/Autosaves/Game/RPGContent/Input/IMC_RPGMapping_Auto4.uasset'
+[2023.01.11-18.09.46:704][866]LogFileHelpers: Auto-saving content packages took 0.004
